@@ -139,6 +139,8 @@ include_directories(
 add_executable(turtle_listener src/turtle_listener.cpp)
 target_link_libraries(turtle_listener ${catkin_LIBRARIES})
 
+add_executable(trajectory_controller src/trajectory_controller.cpp)
+target_link_libraries(trajectory_controller ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
